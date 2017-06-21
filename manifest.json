@@ -1,0 +1,12 @@
+{
+  "name": "FB Birthday",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "facebook のお誕生日メッセージ自動化",
+  "content_scripts": [
+    {
+      "matches": ["http://www.facebook.com/events/birthdays*","https://www.facebook.com/events/birthdays*"],
+      "js": ["jquery-3.0.0.min.js","script.js"]
+    }
+  ]
+}
